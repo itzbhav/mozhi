@@ -1,0 +1,57 @@
+name: language_learning_app
+description: A language learning app with reading, listening, and writing features.
+
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ensure Dart version is compatible
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🔥 Firebase Dependencies
+  firebase_core: ^3.11.0  # Core Firebase SDK
+  firebase_auth: ^5.4.2  # Firebase Authentication
+  cloud_firestore: ^5.6.4 # Firebase Firestore (Database)
+  firebase_storage: ^12.4.2 # Firebase Storage (for images/files)
+
+  # UI & Icons
+  cupertino_icons: ^1.0.2  # iOS-style icons
+  google_fonts: ^6.1.0     # Custom fonts support
+  google_nav_bar: ^5.0.7
+  cool_dropdown: ^2.1.1
+  percent_indicator: ^4.2.4
+  staggered_grid_view: ^0.0.1
+  flutter_svg: ^2.0.17
+  just_audio: ^0.9.46
+  dart_levenshtein: ^1.0.1
+  audioplayers: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Linting for best practices
+  speech_to_text: ^6.3.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/home_icons/reading.png
+    - assets/home_icons/listening.png
+    - assets/home_icons/speaking.png
+    - assets/home_icons/writing.png
+    - assets/home_icons/home_icon.png
+    - assets/home_icons/leaderboard_icon.png
+    - assets/home_icons/language_icon.png
+    - assets/home_icons/profile_icon.png
+    - assets/image1.png
+    - assets/audio/hindi_q1.wav
+    - assets/audio/hindi_q2.wav
+    - assets/audio/french_q1.wav
+    - assets/audio/french_q2.wav
+    - assets/audio/spanish_q1.wav
+    - assets/audio/spanish_q2.wav
+    - assets/audio/spanish_q3.wav

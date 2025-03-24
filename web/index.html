@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning App</title>
+
+    <!-- ✅ Prevent favicon error -->
+    <link rel="icon" href="data:,">
+
+    <!-- ✅ Service Worker Fix -->
+    <script>
+        var serviceWorkerVersion = null; // Set to null to avoid errors
+    </script>
+
+    <!-- ✅ Ensure Flutter is properly set up -->
+    <script>
+        window._flutter = window._flutter || {};
+        window._flutter.buildConfig = {
+            builds: [
+                { renderer: "canvaskit", compileTarget: "dart2js" }, 
+                { renderer: "html", compileTarget: "dart2js" }
+            ]
+        };
+    </script>
+
+    <!-- ✅ Firebase Initialization (Must Load Before Flutter) -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+        import { getAuth } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyBG5eDvWScbGE2eFv7AlqlZw1oGZN0AYp8",
+            authDomain: "mozhi-lang.firebaseapp.com",
+            projectId: "mozhi-lang",
+            storageBucket: "mozhi-lang.appspot.com",
+            messagingSenderId: "215381309372",
+            appId: "1:215381309372:web:abcdef123456"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        console.log("✅ Firebase Initialized Successfully");
+    </script>
+
+    <!-- ✅ Load Flutter (AFTER Firebase) -->
+    <script src="flutter.js" defer></script>
+</head>
+<body>
+    <script>
+        window.addEventListener('load', function () {
+            if (typeof _flutter === "undefined" || !_flutter.loader) {
+                console.error("🚨 Error: Flutter loader is missing. Ensure flutter.js is properly loaded.");
+                return;
+            }
+
+            try {
+                _flutter.loader.load({
+                    serviceWorker: {
+                        serviceWorkerVersion: serviceWorkerVersion
+                    }
+                }).then(function (engineInitializer) {
+                    return engineInitializer.initializeEngine();
+                }).then(function (appRunner) {
+                    return appRunner.runApp();
+                }).catch(function (error) {
+                    console.error("🚨 Flutter failed to load:", error);
+                });
+
+                console.log("✅ Flutter Web is initializing...");
+            } catch (e) {
+                console.error("🚨 Unexpected error during Flutter startup:", e);
+            }
+        });
+    </script>
+</body>
+</html>

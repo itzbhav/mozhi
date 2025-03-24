@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mozhi-lang",
+          "appId": "1:215381309372:android:2c0b509c2fd7ca93ec1db9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mozhi-lang",
+          "configurations": {
+            "android": "1:215381309372:android:2c0b509c2fd7ca93ec1db9",
+            "ios": "1:215381309372:ios:993da99f0f508880ec1db9",
+            "macos": "1:215381309372:ios:993da99f0f508880ec1db9",
+            "web": "1:215381309372:web:fbb5a559eadc73e4ec1db9",
+            "windows": "1:215381309372:web:22c6079e5b6d2d4eec1db9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
