@@ -41,8 +41,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBG5eDvWScbGE2eFv7AlqlZw1oGZN0AYp8',
-    appId: '1:215381309372:web:fbb5a559eadc73e4ec1db9',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '215381309372',
     projectId: 'mozhi-lang',
     authDomain: 'mozhi-lang.firebaseapp.com',
@@ -50,16 +50,16 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAUqXG6gmMDts5YJuQnyCrJJi1I32DJvXY',
-    appId: '1:215381309372:android:2c0b509c2fd7ca93ec1db9',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '215381309372',
     projectId: 'mozhi-lang',
     storageBucket: 'mozhi-lang.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD_UwbWWTXOXPOIkz5bE3FwEdEXq5HIyBs',
-    appId: '1:215381309372:ios:993da99f0f508880ec1db9',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '215381309372',
     projectId: 'mozhi-lang',
     storageBucket: 'mozhi-lang.firebasestorage.app',
@@ -67,8 +67,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD_UwbWWTXOXPOIkz5bE3FwEdEXq5HIyBs',
-    appId: '1:215381309372:ios:993da99f0f508880ec1db9',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '215381309372',
     projectId: 'mozhi-lang',
     storageBucket: 'mozhi-lang.firebasestorage.app',
@@ -76,8 +76,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBG5eDvWScbGE2eFv7AlqlZw1oGZN0AYp8',
-    appId: '1:215381309372:web:22c6079e5b6d2d4eec1db9',
+    apiKey: '',
+    appId: '',
     messagingSenderId: '215381309372',
     projectId: 'mozhi-lang',
     authDomain: 'mozhi-lang.firebaseapp.com',
