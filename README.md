@@ -38,8 +38,14 @@ Pull requests are welcome! Please open an issue first to discuss changes.
 📄 License
 This project is MIT Licensed.
 ![Screenshot 2025-03-24 214117](https://github.com/user-attachments/assets/e5feec5f-edff-4f99-b177-b010220bbd13)
-![Screenshot 2025-03-24 214151](https://github.com/user-attachments/assets/fdd9c884-6684-41ba-a09c-8b04e9c5fc52)
-![Screenshot 2025-03-24 214143](https://github.com/user-attachments/assets/3569d30d-4d23-4482-a5be-aa1284fb5076)
-![Screenshot 2025-03-24 214131](https://github.com/user-attachments/assets/398efe73-90d7-4097-b7e1-8c2bb94eb8f8)
-![Screenshot 2025-03-24 214123](https://github.com/user-attachments/assets/b210e73f-6363-4e61-8753-883633f7d20c)
+![Screenshot 2025-03-24 214245](https://github.com/user-attachments/assets/8d591023-ec0d-46b7-b55a-8f6862b66330)
+![Screenshot 2025-03-24 214221](https://github.com/user-attachments/assets/59647313-4750-42e0-a8b3-563c5e49c3d8)
+![Screenshot 2025-03-24 214214](https://github.com/user-attachments/assets/43b4ad80-3fd3-4454-89b4-b63f3d7d63ba)
+![Screenshot 2025-03-24 214207](https://github.com/user-attachments/assets/9231f6ff-5d6c-4ab2-9470-566066b3b524)
+![Screenshot 2025-03-24 214159](https://github.com/user-attachments/assets/944319a9-bd72-46ed-b3ea-6cda06b5df48)
+![Screenshot 2025-03-24 214151](https://github.com/user-attachments/assets/5ece37d3-2c59-4547-8eb6-bd9ddef4c262)
+![Screenshot 2025-03-24 214143](https://github.com/user-attachments/assets/cf080126-97b6-4137-aa89-ec37f85537af)
+![Screenshot 2025-03-24 214131](https://github.com/user-attachments/assets/3463e53b-71e7-468d-bb45-07dc17535b46)
+![Screenshot 2025-03-24 214123](https://github.com/user-attachments/assets/3c92973a-002b-4323-987f-aac6ca73077e)
+
 
